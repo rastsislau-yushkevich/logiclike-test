@@ -1,0 +1,21 @@
+.tabs {
+    width: 264px;
+    padding: 12px;
+    border: 1px solid #CFCFE4;
+    border-radius: 18px;
+    height: min-content;
+    flex-shrink: 0;
+
+    .tabBtn {
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+    .active {
+        background-color: #5FBF77;
+
+        button {
+            color: #FFFFFF;
+        }
+    }
+}
